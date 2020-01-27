@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>uHost</title>
+        <link ref="shortcut icon" href="favicon.png">
+        <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet"> 
+        <link rel="stylesheet" href="main.css">
+    </head>
+
+    <body>
+        <header class="main-header">
+            <div class="main-header__brand">
+                <a href="index.html">uHost</a>
+            </div>
+            <nav class="main-nav">
+                <ul class="main-nav__items">
+                    <li class="main-nav__item"><a href="packages/inde.html">Packages</a></li>
+                    <li class="main-nav__item"><a href="customers/inde.html">Customers</a></li>
+                    <li class="main-nav__item main-nav__item--cta"><a href="start-hosting/inde.html">Start Hosting</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="product-overview">
+                <h1>Get the freedom you deserve</h1>
+            </section>
+            <section id="plans">
+                <h1 class="section-title">Choose your Plan</h1>
+                <p>Test paragraph</p>
+            </section
+        </main>
+    </body>
+    <script>
+        'use strict';
+
+const add = x => y => {
+  const z = x + y;
+  console.log(x + '+' + y + '=' + z);
+  return add(z);
+};
+
+// const add = x => y => add(x + y);
+
+// Usage
+
+const a1 = add(5);
+const a2 = a1(2);
+const a3 = a2(3);
+const a4 = a1(1);
+const a5 = a2(10);
+console.log(a1, a2, a3, a4, a5);
+
+const res = add(1)(4)(8)(8);
+console.log(res);
+    </script>
+</html>
